@@ -5,6 +5,9 @@ import os
 import os.path as osp
 import pkg_resources
 
+# import mars_scapes
+# import mars_seg
+
 
 def is_installed(package_name):
     try:
