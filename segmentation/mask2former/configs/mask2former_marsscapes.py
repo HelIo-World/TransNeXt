@@ -133,7 +133,7 @@ model = dict(
                 ]),
             sampler=dict(type='mmdet.MaskPseudoSampler'))),
     train_cfg=dict(),
-    test_cfg = dict(type='slide', crop_size=(512, 512), stride=(340, 340)))
+    test_cfg = dict(mode='slide', crop_size=(512, 512), stride=(340, 340)))
 
 
 # optimizer
